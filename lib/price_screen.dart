@@ -30,7 +30,6 @@ class _PriceScreenState extends State<PriceScreen> {
     );
 
   }
-
   Map<String, String> coinValues = {};
   bool isWaiting = false;
 
@@ -46,13 +45,11 @@ class _PriceScreenState extends State<PriceScreen> {
       print(e);
     }
   }
-
   @override
   void initState() {
     super.initState();
     getData();
   }
-
   Column makeCards() {
     List<CryptoCard> cryptoCards = [];
     for (String crypto in cryptoList) {
