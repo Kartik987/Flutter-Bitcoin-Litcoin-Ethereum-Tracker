@@ -4,7 +4,6 @@ class PriceScreen extends StatefulWidget {
   @override
   _PriceScreenState createState() => _PriceScreenState();
 }
-
 class _PriceScreenState extends State<PriceScreen> {
   String selectedCurrency = 'AUD';
   DropdownButton<String> androidDropdown(){
