@@ -8,9 +8,7 @@ class PriceScreen extends StatefulWidget {
 class _PriceScreenState extends State<PriceScreen> {
   String selectedCurrency = 'AUD';
   DropdownButton<String> androidDropdown(){
-
    List<DropdownMenuItem<String>> dropdownItems=[];
-
    for(String currency in currenciesList )
    {
      var newItem = DropdownMenuItem(
