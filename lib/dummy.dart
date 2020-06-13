@@ -90,7 +90,6 @@ class _PriceScreenState extends State<PriceScreen> {
       children: cryptoCards,
     );
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
