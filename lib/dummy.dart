@@ -123,7 +123,6 @@ class CryptoCard extends StatelessWidget {
   final String value;
   final String selectedCurrency;
   final String cryptoCurrency;
-
   @override
   Widget build(BuildContext context) {
     return Padding(
