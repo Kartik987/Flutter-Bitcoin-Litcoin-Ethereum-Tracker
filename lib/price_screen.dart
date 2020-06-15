@@ -40,7 +40,6 @@ class _PriceScreenState extends State<PriceScreen> {
       print(e);
     }
   }
-  
   @override
   void initState() {
     super.initState();
