@@ -73,7 +73,6 @@ class _PriceScreenState extends State<PriceScreen> {
     super.initState();
     getData();
   }
-
   Column makeCards() {
     List<CryptoCard> cryptoCards = [];
     for (String crypto in cryptoList) {
