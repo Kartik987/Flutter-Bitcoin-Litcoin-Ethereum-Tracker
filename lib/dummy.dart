@@ -54,7 +54,6 @@ class _PriceScreenState extends State<PriceScreen> {
 
   Map<String, String> coinValues = {};
   bool isWaiting = false;
-
   void getData() async {
     isWaiting = true;
     try {
@@ -67,7 +66,6 @@ class _PriceScreenState extends State<PriceScreen> {
       print(e);
     }
   }
-
   @override
   void initState() {
     super.initState();
