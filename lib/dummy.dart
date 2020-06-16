@@ -51,7 +51,6 @@ class _PriceScreenState extends State<PriceScreen> {
       children: pickerItems,
     );
   }
-
   Map<String, String> coinValues = {};
   bool isWaiting = false;
   void getData() async {
