@@ -56,6 +56,7 @@ class _PriceScreenState extends State<PriceScreen> {
   void getData() async {
     isWaiting = true;
     try {
+      
       var data = await CoinData().getCoinData(selectedCurrency);
       isWaiting = false;
       setState(() {
