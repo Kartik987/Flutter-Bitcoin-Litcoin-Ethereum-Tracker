@@ -26,7 +26,6 @@ const List<String> currenciesList = [
 ];
 
 const List<String> cryptoList = ['BTC', 'ETH', 'LTC'];
-
 const coinAPIURL = 'https://rest.coinapi.io/v1/exchangerate';
 const apiKey = 'E78485D2-2360-4AE0-B25B-F0EB75415B46';
 
