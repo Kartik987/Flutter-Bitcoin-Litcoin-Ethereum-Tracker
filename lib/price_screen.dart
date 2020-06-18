@@ -93,7 +93,6 @@ class CryptoCard extends StatelessWidget {
     this.selectedCurrency,
     this.cryptoCurrency,
   });
-
   final String value;
   final String selectedCurrency;
   final String cryptoCurrency;
