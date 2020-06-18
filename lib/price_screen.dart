@@ -80,9 +80,7 @@ class _PriceScreenState extends State<PriceScreen> {
             child: androidDropdown(),
           ),
         ],
-
       )
-      
     );
   }
 }
