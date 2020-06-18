@@ -86,7 +86,6 @@ class _PriceScreenState extends State<PriceScreen> {
     );
   }
 }
-
 class CryptoCard extends StatelessWidget {
   const CryptoCard({
     this.value,
