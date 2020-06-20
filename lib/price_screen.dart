@@ -65,7 +65,15 @@ class _PriceScreenState extends State<PriceScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('₿ Coin Ticker'),
+        title: Row(
+          children: <Widget>[
+            Image(image: AssetImage('images/bitcoin.png')),
+            SizedBox(
+                width:10.0
+            ),
+            Text('Coin Ticker'),
+          ],
+        ),
       ),
       body:Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
