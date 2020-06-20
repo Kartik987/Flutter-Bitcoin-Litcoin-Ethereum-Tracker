@@ -71,7 +71,7 @@ class _PriceScreenState extends State<PriceScreen> {
             SizedBox(
                 width:10.0
             ),
-            Text('Coin Ticker'),
+            Text('Crypto Tracker'),
           ],
         ),
       ),
@@ -106,7 +106,7 @@ class CryptoCard extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.fromLTRB(18.0,18.0,18.0,18.0),
       child:Card(
-        color:Colors.orangeAccent,
+        color:Colors.orangeAccent[300],
         elevation:5.0,
         shape:RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10.0),
