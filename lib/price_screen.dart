@@ -80,6 +80,15 @@ class _PriceScreenState extends State<PriceScreen> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           makeCards(),
+          Expanded(
+                      child: Center(
+                        child: Text('BTC : Bitcoin   ETH: Ethereum   LTC: Litecoin',
+            style: TextStyle(color: Colors.blueAccent,
+            fontWeight: FontWeight.bold,
+            fontSize: 16.0
+            )),
+                      ),
+          ),
           Container(
             height: 150.0,
             alignment: Alignment.center,
@@ -87,6 +96,7 @@ class _PriceScreenState extends State<PriceScreen> {
             color: Colors.orangeAccent[200],
             child: androidDropdown(),
           ),
+          
         ],
       )
     );
@@ -106,7 +116,7 @@ class CryptoCard extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.fromLTRB(18.0,18.0,18.0,18.0),
       child:Card(
-        color:Colors.orangeAccent[100],
+        color:Colors.orangeAccent[200],
         elevation:5.0,
         shape:RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10.0),
