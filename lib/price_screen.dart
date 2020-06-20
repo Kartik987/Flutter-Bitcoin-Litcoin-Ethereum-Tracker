@@ -54,7 +54,7 @@ class _PriceScreenState extends State<PriceScreen> {
           selectedCurrency: selectedCurrency,
           value: isWaiting ? '?' : coinValues[crypto],
         ),
-      );
+      );   // primary color is for appbar and accent color is for floating action button.
     }
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -76,7 +76,7 @@ class _PriceScreenState extends State<PriceScreen> {
             height: 150.0,
             alignment: Alignment.center,
             padding: EdgeInsets.only(bottom: 30.0),
-            color: Colors.teal[400],
+            color: Colors.orangeAccent[200],
             child: androidDropdown(),
           ),
         ],
@@ -98,7 +98,7 @@ class CryptoCard extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.fromLTRB(18.0,18.0,18.0,18.0),
       child:Card(
-        color:Colors.teal[400],
+        color:Colors.orangeAccent,
         elevation:5.0,
         shape:RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10.0),
