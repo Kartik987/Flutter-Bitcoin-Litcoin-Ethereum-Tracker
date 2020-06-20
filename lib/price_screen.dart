@@ -81,7 +81,7 @@ class _PriceScreenState extends State<PriceScreen> {
         children: <Widget>[
           makeCards(),
           Expanded(
-            child: Center(
+           child: Center(
             child: Text('BTC : Bitcoin   ETH: Ethereum   LTC: Litecoin',
             style: TextStyle(color: Colors.blueAccent,
             fontWeight: FontWeight.bold,
