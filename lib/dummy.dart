@@ -83,7 +83,6 @@ class _PriceScreenState extends State<PriceScreen> {
       );
     }
     return Column(
-      
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: cryptoCards,
     );
