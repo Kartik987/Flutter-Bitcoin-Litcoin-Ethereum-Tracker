@@ -132,7 +132,6 @@ class CryptoCard extends StatelessWidget {
             ),
           ),
           ),
-
       )
       
        );
