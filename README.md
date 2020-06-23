@@ -6,7 +6,7 @@ A new Flutter project.
 
 A few resources to get you started with this  Flutter project:
 
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Cookbook: Useful Flutter Documentations](https://flutter.dev/docs/cookbook)
 - Api used <a href="https://www.coinapi.io/">Coinapi</a>
 
 ## Some Snapshots
