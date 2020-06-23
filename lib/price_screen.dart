@@ -15,7 +15,8 @@ class _PriceScreenState extends State<PriceScreen> {
         value: currency,
       );
       dropdownItems.add(newItem);
-   }return DropdownButton<String>(
+   }
+   return DropdownButton<String>(
       value: selectedCurrency,
       items: dropdownItems,
       onChanged: (value) {
